@@ -1,0 +1,43 @@
+/* Couleur de fond pour la classe body */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Couleur de fond pour la classe jumbotron */
+.jumbotron {
+    background-color: #284f75;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Ajustement de la couleur de fond pour la classe container */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère pour le contour */
+}
+
+/* Espacement entre les éléments */
+.row {
+    margin-top: 20px;
+}
+
+/* Couleur de fond pour la section supérieure contenant 10 Pokémon */
+#topPokemon {
+    background-color: #e9ecef;
+    padding: 20px; /* Ajoutez le padding ici */
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* Espacement entre les cartes Pokémon */
+.card {
+    margin-bottom: 20px;
+}
+
+.larger-image {
+    width: 150px; /* ajustez la largeur selon vos besoins */
+    height: auto; /* pour maintenir le rapport hauteur-largeur */
+}

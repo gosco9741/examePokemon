@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Pokémon</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron mt-5">
+            <div class="row">
+                <div class="col-md-6" id="maSectionRecherche">
+                    <h2 class="display-4">Bienvenue sur le portail de recherche des Pokémons!</h2>
+                    <hr class="my-4">
+                    <form id="searchForm">
+                        <div class="form-group">
+                            <label for="pokemonNumber">Entrer un numéro de Pokémon:</label>
+                            <input type="number" class="form-control" id="pokemonNumber" placeholder="Enter Pokémon Number">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Search</button>
+                    </form>
+                </div>
+                <div class="col-md-6" id="pokemonDetails"></div>
+            </div>
+        </div>
+
+        <!-- Section supérieure contenant 10 Pokémon au hasard -->
+        <div class="row" id="topPokemon"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
